@@ -73,3 +73,22 @@
 #nav-main a:hover {
     text-decoration: underline;
 }
+
+/* Annonces */
+#annonce-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+#annonce-wrapper a {
+    width: 12em;
+    height: 9em;
+    text-decoration: none;
+    color: #000;
+    border: 2px solid red;
+}
+
+#annonce-wrapper img {
+    width: 100%;
+    height: 100%;
+}
