@@ -36,12 +36,11 @@
 }
 
 #logo {
-    width: 9em;
-    flex: 1;
+    width: 15em;
 }
 
 #search-zone {
-    flex: 2;
+ 
 }
 
 #search-zone input {
@@ -98,4 +97,12 @@
 #annonce-wrapper a:hover,
 #categories-wrapper a:hover {
     color: #487fc1;
+}
+
+#btn-annonce {
+    padding: .8em;
+    background-color: #487fc1;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
 }
